@@ -1,0 +1,15 @@
+HTML
+	<hgroup>: agrupa los hx para no confundir seo y la indexacion de pagina
+
+	<nav>: menu de navegacion(idear crear ul-li)
+
+	<section>: permite indicarle a los robot que es una seccion nueva de la pagina (ideal es no poner css en section)
+
+	<article>: contenido qe va a ver directamente el usuario
+
+	<aside>: espacio para sidebar (redes sociales, anuncios etc etc)
+
+CSS
+	display inline-block; despliegue horizontal
+	
+	cursor pointer: obliga el modo pointer al cursor
