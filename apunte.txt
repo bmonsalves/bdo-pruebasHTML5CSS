@@ -9,7 +9,20 @@ HTML
 
 	<aside>: espacio para sidebar (redes sociales, anuncios etc etc)
 
+	<meter min="0" max="100" value="70"> crea barras de progreso (no soportada en firefox)
+
+	<label for=""> para cajas de texto
+
+	<input type="range" min="0" max="100"> crea una barra con un boton desplazable (utilizar en la app de autos)
+	ver http://jqueryui.com/slider/#range
+
+	placeholder="texto": agrega una descripcion en los input
+
+	required: obliga a que el valor de un input sea obligatorio
+
 CSS
 	display inline-block; despliegue horizontal
-	
+
 	cursor pointer: obliga el modo pointer al cursor
+
+	position absolute: permite que el objeto se posicione segun las coordenadas entregadas y que no dependa de ningun otro elemento

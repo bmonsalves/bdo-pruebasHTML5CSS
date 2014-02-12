@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css">
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="script.js"></script>
 	</head>
 	<body>
 		<div id="contenido">
@@ -11,23 +13,23 @@
 					<h1>prueba pagina</h1>
 				</hgroup>
 				<nav>
-				<ul>
-					<li>inicio</li>
-					<li>tutoriales</li>
-					<li>contacto</li>
-					<li>media</li>
-				</ul>
-			</nav>
+					<ul>
+						<li>inicio</li>
+						<li>tutoriales</li>
+						<li>contacto</li>
+						<li>media</li>
+					</ul>
+				</nav>
 			</header>
 			<section>
 				<div id="texto">
-					<article>
-						<hgroup>
-							<h1>lorem ipsum</h1>
-						</hgroup>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt ullamcorper faucibus. Integer eget egestas libero, vitae feugiat risus. Nunc porta lectus id nunc bibendum porttitor. Sed lacinia aliquet elementum. Pellentesque id gravida massa, ut auctor magna.
-						</p>
+					<hgroup>
+						<h1>habilidades</h1>
+					</hgroup>
+					<article class="habilidades">
+						<p>javascript <meter min="0" max="100" value="70"></meter></p>
+						<p>css <meter min="0" max="100" value="30"></meter></p>
+						<p>html <meter min="0" max="100" value="50"></meter></p>
 					</article>
 					<aside>
 						<p>visitanos rs1<a href="#">@prueba1</a></p>
@@ -36,5 +38,10 @@
 				</div>
 			</section>
 		</div>
+		<footer>
+			<canvas id="micanvas">
+				
+			</canvas>
+		</footer>
 	</body>
 </html>
